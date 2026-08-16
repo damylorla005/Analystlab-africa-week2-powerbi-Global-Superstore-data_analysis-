@@ -178,7 +178,7 @@ The total revenue generated from all transactions.
 Total Sales =
 SUM(Orders[Sales])
 
-### 2. Total Profit
+## 2. Total Profit
 **Definition:**
 The total profit generated from all transactions.
 
@@ -186,14 +186,14 @@ The total profit generated from all transactions.
 Total Profit =
 SUM(Orders[Profit])
 
-#### 3. Total Orders
+## 3. Total Orders
 Definition:
 The number of unique orders placed.
 ```DAX
 Total Orders =
 DISTINCTCOUNT(Orders[Order ID])
 
-##### 4. Average Sales
+## 4. Average Sales
 Definition:
 Average sales value generated per unique order.
 ```DAX
@@ -203,7 +203,7 @@ DIVIDE(
     [Total Orders]
 )
 
-###### 5. Profit Margin
+## 5. Profit Margin
 Definition:
 The percentage of sales retained as profit.
 ```DAX
