@@ -173,8 +173,8 @@ The dashboard contains five major KPI cards.
 **Definition:**  
 The total revenue generated from all transactions.
 
-### Dax
-DAX
+
+### DAX
 Total Sales =
 SUM(Orders[Sales])
 
@@ -182,21 +182,23 @@ SUM(Orders[Sales])
 **Definition:**
 The total profit generated from all transactions.
 
-```DAX
+### DAX
 Total Profit =
 SUM(Orders[Profit])
 
 ## 3. Total Orders
 Definition:
 The number of unique orders placed.
-```DAX
+
+### DAX
 Total Orders =
 DISTINCTCOUNT(Orders[Order ID])
 
 ## 4. Average Sales
 Definition:
 Average sales value generated per unique order.
-```DAX
+
+### DAX
 Average Sales =
 DIVIDE(
     [Total Sales],
@@ -206,7 +208,8 @@ DIVIDE(
 ## 5. Profit Margin
 Definition:
 The percentage of sales retained as profit.
-```DAX
+
+### DAX
 Profit Margin =
 DIVIDE(
     [Total Profit],
