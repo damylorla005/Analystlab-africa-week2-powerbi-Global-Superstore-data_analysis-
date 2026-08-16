@@ -174,7 +174,7 @@ The dashboard contains five major KPI cards.
 The total revenue generated from all transactions.
 
 ### Dax
-```DAX
+DAX
 Total Sales =
 SUM(Orders[Sales])
 
