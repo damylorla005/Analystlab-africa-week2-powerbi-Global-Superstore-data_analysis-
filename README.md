@@ -173,7 +173,6 @@ The dashboard contains five major KPI cards.
 **Definition:**  
 The total revenue generated from all transactions.
 
-### DAX
 
 ```DAX
 Total Sales =
