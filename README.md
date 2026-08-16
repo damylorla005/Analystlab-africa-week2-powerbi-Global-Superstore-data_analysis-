@@ -178,7 +178,7 @@ The total revenue generated from all transactions.
 Total Sales =
 SUM(Orders[Sales])
 
-## 2. Total Profit
+# 2. Total Profit
 **Definition:**
 The total profit generated from all transactions.
 
